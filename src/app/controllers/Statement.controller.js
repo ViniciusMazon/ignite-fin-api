@@ -5,7 +5,7 @@ class StatementController {
     const { cpf } = request.params;
     const customer = customers.find((customer) => customer.cpf === cpf);
 
-    return response.json(customer.statement);
+    return response.status(200).json(customer.statement);
   }
 }
 
