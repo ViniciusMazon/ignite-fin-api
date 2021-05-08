@@ -26,6 +26,7 @@ Uma API financeira desenvolvida durante o bootcamp Ignite da [Rocketseat](https:
 # Crido utilizando
 * [uuid](https://www.npmjs.com/package/uuid)
 * [ExpressJS](https://expressjs.com/pt-br/)
+* [Nodemon](https://www.npmjs.com/package/nodemon)
 * [NodeJS](https://nodejs.org/en/)
 
 # Licença
