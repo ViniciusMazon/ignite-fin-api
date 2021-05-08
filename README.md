@@ -1,14 +1,14 @@
 # Sobre o projeto
-Uma API financeira desenvolvida durante o bootcamp Ignite da [Rocketseat](https://github.com/rocketseat-education).
-# ToDo
+🧑🏻‍🚀 Uma API financeira desenvolvida durante o bootcamp Ignite da [Rocketseat](https://github.com/rocketseat-education)💜.
+
 ## Requisitos
 - [x] Criar conta
 - [x] Buscar o extrato bancário do cliente
 - [x] Realizar um depósito
 - [x] Realizar um saque
-- [ ] Buscar o extrato bancário do cliente por data
-- [ ] Atualizar dados da conta do cliente
-- [ ] Obter dados da conta do cliente
+- [x] Buscar o extrato bancário do cliente por data
+- [x] Atualizar dados da conta do cliente
+- [x] Obter dados da conta do cliente
 - [ ] Deletar uma conta
 ## Regras de negócio
 - [x] Não deve ser possível cadastrar uma conta com CPF já existente
@@ -23,3 +23,9 @@ Uma API financeira desenvolvida durante o bootcamp Ignite da [Rocketseat](https:
 * [uuid](https://www.npmjs.com/package/uuid)
 * [ExpressJS](https://expressjs.com/pt-br/)
 * [NodeJS](https://nodejs.org/en/)
+
+# Licença
+Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+---
+Desenvolvido com 🖤 por Vinicius Mazon
