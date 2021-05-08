@@ -1,4 +1,4 @@
-const getBalance = require("../service/getBalance.service");
+const getBalance = require("../helpers/getBalance.helper.js");
 
 class Withdraw {
   create(request, response) {
