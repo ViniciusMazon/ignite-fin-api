@@ -13,7 +13,8 @@ const withdraw = new WithdrawController();
 
 routes.post("/account", account.create);
 
-routes.get("/statement", accountIsValid, statement.show);
+routes.get("/statement", accountIsValid, statement.index);
+routes.get("/statement/date", accountIsValid, statement.show);
 
 routes.post("/deposit", accountIsValid, deposit.create);
 
