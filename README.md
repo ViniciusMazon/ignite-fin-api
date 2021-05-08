@@ -17,4 +17,9 @@ Uma API financeira desenvolvida durante o bootcamp Ignite da [Rocketseat](https:
 * Não deve ser possível fazer saque em uma conta não existente
 * Não deve ser possível excluir uma conta não existente
 * Não deve ser possível fazer saque quando o saldo for insuficiente
-* 
+
+
+# Crido utiliando
+* [uuid](https://www.npmjs.com/package/uuid)
+* [ExpressJS](https://expressjs.com/pt-br/)
+* [NodeJS](https://nodejs.org/en/)
