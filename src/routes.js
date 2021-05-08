@@ -14,6 +14,7 @@ const withdraw = new WithdrawController();
 routes.post("/account", account.create);
 routes.put("/account",  accountIsValid, account.update);
 routes.get("/account",  accountIsValid, account.index);
+routes.delete("/account",  accountIsValid, account.delete);
 
 routes.get("/statement", accountIsValid, statement.index);
 routes.get("/statement/date", accountIsValid, statement.show);

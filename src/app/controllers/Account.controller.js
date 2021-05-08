@@ -36,6 +36,13 @@ class AccountController {
     const { customer } = request;
     return response.status(200).json(customer);
   }
+
+  delete(request, response) {
+    const { customer } = request;
+
+    customers.splice(customer, 1);
+    return response.status(204).send();
+  }
 }
 
 module.exports = AccountController;
