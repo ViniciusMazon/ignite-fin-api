@@ -1,9 +1,8 @@
 const { v4: uuidv4 } = require("uuid");
-
-const customers = [];
+const customers = require('../../fakeDB/customers');
 
 class AccountController {
-  store(request, response) {
+  create(request, response) {
     const { name, cpf } = request.body;
 
     const customerAlreadyExists = customers.some(
