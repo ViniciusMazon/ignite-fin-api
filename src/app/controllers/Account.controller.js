@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require("uuid");
-const customers = require('../../fakeDB/customers');
+const customers = require("../../fakeDB/customers");
 
 class AccountController {
   create(request, response) {
@@ -22,6 +22,19 @@ class AccountController {
     customers.push(account);
 
     return response.status(201).json({ account });
+  }
+
+  update(request, response) {
+    const { name } = request.body;
+    const { customer } = request;
+
+    customer.name = name;
+    return response.status(201).send();
+  }
+
+  index(request, response) {
+    const { customer } = request;
+    return response.status(200).json(customer);
   }
 }
 

@@ -12,6 +12,8 @@ const deposit = new DepositController();
 const withdraw = new WithdrawController();
 
 routes.post("/account", account.create);
+routes.put("/account",  accountIsValid, account.update);
+routes.get("/account",  accountIsValid, account.index);
 
 routes.get("/statement", accountIsValid, statement.index);
 routes.get("/statement/date", accountIsValid, statement.show);
