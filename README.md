@@ -1,5 +1,5 @@
 # Sobre o projeto
-🧑🏻‍🚀 Uma API financeira desenvolvida durante o bootcamp Ignite da [Rocketseat](https://github.com/rocketseat-education)💜.
+Uma API financeira desenvolvida durante o bootcamp Ignite da [Rocketseat](https://github.com/rocketseat-education)💜.
 
 ## Requisitos
 - [x] Criar conta
@@ -10,6 +10,7 @@
 - [x] Atualizar dados da conta do cliente
 - [x] Obter dados da conta do cliente
 - [x] Deletar uma conta
+- [ ] Retornar o balanço
 ## Regras de negócio
 - [x] Não deve ser possível cadastrar uma conta com CPF já existente
 - [x] Não deve ser possível fazer depósito em uma conta não existente
@@ -17,7 +18,6 @@
 - [x] Não deve ser possível fazer saque em uma conta não existente
 - [x] Não deve ser possível excluir uma conta não existente
 - [x] Não deve ser possível fazer saque quando o saldo for insuficiente
-****
 
 # Crido utilizando
 * [uuid](https://www.npmjs.com/package/uuid)
