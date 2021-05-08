@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img alt="move it logo" title="MoveIt" src="documents\readme\logo.svg" width="20%">
+</h1>
+
 # Sobre o projeto
 Uma API financeira desenvolvida durante o bootcamp Ignite da [Rocketseat](https://github.com/rocketseat-education)💜.
 
@@ -10,7 +14,7 @@ Uma API financeira desenvolvida durante o bootcamp Ignite da [Rocketseat](https:
 - [x] Atualizar dados da conta do cliente
 - [x] Obter dados da conta do cliente
 - [x] Deletar uma conta
-- [ ] Retornar o balanço
+- [x] Retornar o balanço
 ## Regras de negócio
 - [x] Não deve ser possível cadastrar uma conta com CPF já existente
 - [x] Não deve ser possível fazer depósito em uma conta não existente
