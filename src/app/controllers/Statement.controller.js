@@ -2,7 +2,7 @@ const customers = require("../../fakeDB/customers");
 
 class StatementController {
   show(request, response) {
-    const { cpf } = request.params;
+    const { cpf } = request.header;
     const customer = customers.find((customer) => customer.cpf === cpf);
 
     if (!customer) {

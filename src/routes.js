@@ -8,6 +8,6 @@ const statement = new StatementController();
 
 routes.post("/account", account.create);
 
-routes.get("/statement/:cpf", statement.show);
+routes.get("/statement", statement.show);
 
 module.exports = routes;
