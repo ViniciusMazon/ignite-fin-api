@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="move it logo" title="MoveIt" src="documents\readme\logo.svg" width="20%">
+  <img alt="move it logo" title="MoveIt" src="documents\readme\logo.svg">
 </h1>
 
 # Sobre o projeto
